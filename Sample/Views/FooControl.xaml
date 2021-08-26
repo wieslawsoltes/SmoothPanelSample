@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="SmoothPanelSample.FooControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextBox Text="{Binding Text}"
+           Background="{Binding Brush}"
+           Padding="10"
+           BorderThickness="0"
+           AcceptsReturn="True"
+           TextWrapping="Wrap" />
+</UserControl>
